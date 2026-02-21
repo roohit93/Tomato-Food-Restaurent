@@ -1,0 +1,124 @@
+
+
+.Navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.Navbar .Logo{
+    width: 150px;
+}
+
+.Navbar-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    color: gray;
+
+
+}
+
+.Navbar-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.Navbar button{
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.Navbar button:hover{
+    background-color: tomato;
+    color: aliceblue;
+}
+
+.Navbar .active{
+    padding-bottom:2px;
+    border-bottom: 2px solid gray;
+}
+
+.Navbar-menu:hover{
+    cursor: pointer;
+}
+
+.Navbar-icon{
+    position: relative;
+}
+
+.Navbar-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 10px;
+    top: -8px;
+    right: -8px;
+
+}
+
+@media (max-width:1050px) {
+    .Navbar .Logo{
+        width: 140px;
+    }
+
+    .Navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .Navbar-right{
+        gap: 30px;
+    }
+
+    .Navbar-right img{
+        width: 22px;
+    }
+
+    .Navbar-right button{
+        padding: 8px 25px;
+    }
+}
+
+
+@media (max-width:900px) {
+    .Navbar .Logo{
+        width: 120px;
+    }
+
+    .Navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .Navbar-right{
+        gap: 20px;
+    }
+
+    .Navbar-right img{
+        width: 20px;
+    }
+
+    .Navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:790px) {
+    .Navbar-menu{
+        display: none;
+    }
+}

@@ -122,3 +122,32 @@
         display: none;
     }
 }
+
+@media (max-width:350px) {
+    .Navbar button{
+    background: transparent;
+    font-size: 8px;
+    border: 1px solid tomato;
+    padding: 2px 10px;
+    border-radius: 20px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}    
+
+.Navbar .Logo{
+    width: 100px;
+}
+}
+
+
+@media (max-width:400px) {
+
+    .Navbar .Logo{
+    width: 100px;
+}
+
+
+
+}

@@ -7,6 +7,7 @@ import PlaceOrder from './Pages/Place order/PlaceOrder'
 import Footer from './Components/Footer/Footer'
 import Signin from './Components/Sign-in/Signin'
 
+
 const App = () => {
 
   const[showsignin,setShowsignin] = useState(false)
@@ -17,13 +18,15 @@ const App = () => {
       <Navbar setShowsignin={setShowsignin}></Navbar>
 
       <Routes>
-        <Route path='/' element = {<Home/>} />
+        <Route path='/Tomato-Food-Restaurent/' element = {<Home/>} />
         <Route path='/cart' element = {<Cart/>}/>
         <Route path='/order' element = {<PlaceOrder/>}/>
       </Routes>
     </div>
 
     <Footer></Footer>
+
+
     
     </>
   )

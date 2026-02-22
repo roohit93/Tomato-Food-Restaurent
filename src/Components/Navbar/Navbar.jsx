@@ -15,9 +15,9 @@ const Navbar = ({setShowsignin}) => {
 
   return (
     <div className='Navbar'>
-      <Link to= '/'><img src={assets.logo} alt="" className="Logo" /></Link>
+      <Link to= '/Tomato-Food-Restaurent/'><img src={assets.logo} alt="" className="Logo" /></Link>
       <ul className="Navbar-menu">
-        <Link  to = '/' onClick={()=>{setMenu("HOME")}} className={menu==="HOME"?"active":" "} >HOME</Link>
+        <Link  to ='/Tomato-Food-Restaurent/' onClick={()=>{setMenu("HOME")}} className={menu==="HOME"?"active":" "} >HOME</Link>
         <a href='#explore-menu' onClick={()=>{setMenu("MENU")}} className={menu==="MENU"?"active":" "} >MENU</a>
         <a href='#app-download' onClick={()=>{setMenu("MOBILE-APP")}} className={menu==="MOBILE-APP"?"active":" "} >MOBILE-APP</a>
         <a href='#footer' onClick={()=>{setMenu("CONTACT-US")}} className={menu==="CONTACT-US"?"active":" "} >CONTACT-US</a>

@@ -25,8 +25,8 @@ const App = () => {
     </div>
 
     <Footer></Footer>
-
-
+    
+    console.log("hello");
     
     </>
   )

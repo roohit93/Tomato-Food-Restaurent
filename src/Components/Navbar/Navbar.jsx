@@ -32,7 +32,11 @@ const Navbar = ({setShowsignin}) => {
       <button onClick={()=>setShowsignin(true)}>SIGN-IN</button>
     </div>
 
+    console.log("Hello")
+
     </div>
+
+    
   )
 }
 
